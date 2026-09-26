@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
     <div className="fixed top-0 left-0 right-0 z-50 flex justify-center p-4">
-      <nav className="navbar bg-black/80 backdrop-blur-[2px] border border-neutral-800 rounded-2xl px-6 py-3 w-full shadow-2xl transition-all duration-300">
+      <nav className="navbar bg-black/80 backdrop-blur-[2px] border border-neutral-800 rounded-sm px-6 py-3 w-full shadow-2xl transition-all duration-300">
         
         {/* Brand Name with Gradient Text */}
         <div className="navbar-start">
@@ -67,7 +67,7 @@ const Navbar = () => {
           {/* Let's Talk Button with Glow Effect */}
           <a
             href="#contact"
-            className="btn btn-sm md:btn-md bg-blue-300/30 hover:bg-blue-400/30 text-blue-300 border border-blue-800/40 hover:border-blue-400/60 rounded-xl font-medium px-4 shadow-[0_0_15px_rgba(163,230,53,0.15)] transition-all duration-300 gap-2 normal-case"
+            className="btn btn-sm md:btn-md bg-blue-300/30 hover:bg-blue-400/30 text-blue-300 border border-blue-800/40 hover:border-blue-400/60 rounded-sm font-medium px-4 shadow-[0_0_15px_rgba(163,230,53,0.15)] transition-all duration-300 gap-2 normal-case"
           >
             <FaArrowRight className="w-4 h-4 text-cyan-400" />
             <span>Let's Talk</span>

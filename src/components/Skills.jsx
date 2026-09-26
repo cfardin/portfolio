@@ -1,32 +1,3 @@
-// // import React from 'react';
-// import { FaCode } from 'react-icons/fa';
-// // import { skillsData } from '../skillsInfo';
-// import { SkillsInfo } from '../constants';
-
-// const Skills = () => {
-
-//     console.log(SkillsInfo);
-//     return (
-//         <div className='container mx-auto my-20'>
-
-//             {/* title */}
-//             <div>
-//                 <h2 className='text-2xl font-bold flex items-center gap-2'><FaCode /> Skills</h2>
-//             </div>
-//             {/* card */}
-//             <div className='border rounded-sm p-10'>
-//                 <div className='grid grid-cols-8 gap-5 '>
-//                     {
-//                         skillsInfo.map()
-//                     }
-
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default Skills;
 
 import { FaCode } from 'react-icons/fa';
 import { SkillsInfo } from '../constants';
@@ -44,7 +15,7 @@ const Skills = () => {
                 {SkillsInfo.map((category) => (
                     <div
                         key={category.title}
-                        className='transition-transform duration-300 ease-out hover:scale-105 active:scale-95 hover:shadow-[0_0_25px_rgba(34,211,238,0.5)] hover:border-cyan-50 bg-[#0b111f] border border-gray-700 rounded-xl p-6'
+                        className='transition-transform duration-300 ease-out hover:scale-105 active:scale-95 hover:shadow-[0_0_25px_rgba(34,211,238,0.5)] hover:border-cyan-50 bg-[#0b111f] border border-gray-700 rounded-sm p-6'
                     >
                         <h3 className=' font-semibold text-lg mb-4'>
                             {category.title}

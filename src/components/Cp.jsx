@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
-import { FaCode, FaTrophy, FaMedal } from "react-icons/fa";
+import { FaCode, FaTrophy, FaMedal, FaLaptopCode } from "react-icons/fa";
+import codeforcesLogo from './../assets/codeforces.png';
+import codechefLogo from './../assets/codechef.png';
+import leetcodeLogo from './../assets/leetcode.png';
 
 const CF_HANDLE = "itsfardin";
 const CC_HANDLE = "cfardin51";
@@ -99,13 +102,17 @@ const Cp = () => {
     const totalSolved = (cf?.solved || 0) + (cc?.solved || 0) + (lc?.total || 0);
     const totalContests = cf?.contests || 70;
 
-    const cardClass ="bg-[#0f1729] border border-gray-700 rounded-xl p-5 transition-all duration-300 hover:shadow-[0_0_25px_rgba(34,211,238,0.4)] hover:border-white";
+    const cardClass ="bg-[#0f1729] border border-gray-700 rounded-sm p-5 transition-all duration-300 hover:shadow-[0_0_25px_rgba(34,211,238,0.4)] hover:border-white";
 
     return (
         <div id="cp" className="max-w-7xl mx-5 sm:mx-auto pt-10 md:pt-30 my-40">
-            <h2 className="text-2xl font-bold flex items-center gap-2 border-b w-fit pb-2 text-white mb-8">
-                <FaCode /> Competitive Programming
-            </h2>
+            <div className="flex flex-col gap-4 pb-2 mb-8">
+                <h2 className="text-2xl font-bold flex items-center gap-2 border-b w-fit pb-2 text-white">
+                    <FaLaptopCode /> Competitive Programming
+                </h2>
+                <p className="text-xl text-gray-300">Sharpening problem-solving skills through algorithms, data structures, and competitive challenges.</p>
+            </div>
+           
 
             {/* Top summary cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -150,9 +157,13 @@ const Cp = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {/* Codeforces */}
                 <div className={cardClass}>
-                    <h3 className="text-white font-semibold text-lg">
-                        Codeforces
-                    </h3>
+                    <a href="https://codeforces.com/profile/itsfardin" target="blank" className="flex justify-between items-center">
+                        <h3 className="text-white font-semibold text-lg">
+                            Codeforces
+                        </h3>
+                        <img className="" src={codeforcesLogo} alt="codeforces" width={40} height={50} />
+                    </a>
+                    
                     <p className="text-green-400 font-medium mb-4 capitalize">
                         {cf?.rank || "..."}
                     </p>
@@ -194,9 +205,13 @@ const Cp = () => {
 
                 {/* CodeChef */}
                 <div className={cardClass}>
-                    <h3 className="text-white font-semibold text-lg">
+                    <a href="https://www.codechef.com/users/cfardin51" target="blank" className="flex justify-between items-center pb-3">
+                        <h3 className="text-white font-semibold text-lg">
                         CodeChef
-                    </h3>
+                        </h3>
+                        <img src={codechefLogo} alt="codechef" width={50} height={50} />
+                    </a>
+                    
                     <p className="text-yellow-400 font-medium mb-4">
                         {cc?.stars || "..."}
                     </p>
@@ -236,9 +251,13 @@ const Cp = () => {
 
                 {/* LeetCode - same style, easy/medium/hard */}
                 <div className={cardClass}>
-                    <h3 className="text-white font-semibold text-lg">
-                        LeetCode
-                    </h3>
+                    <a href="https://leetcode.com/u/c_fardin/" target="blank" className="flex justify-between items-center mb-3">
+                        <h3 className="text-white font-semibold text-lg">
+                            LeetCode
+                        </h3>
+                        <img src={leetcodeLogo} alt="leetcode" width={40} height={50} />
+                    </a>
+                    
                     <p className="text-blue-400 font-medium mb-4">
                         Total: {lc?.total ?? "..."}
                     </p>
