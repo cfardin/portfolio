@@ -5,7 +5,7 @@ const Projects = () => {
 
     // console.log(projects);
     return (
-        <div className="mx-auto max-w-7xl">
+        <div id="projects" className="max-w-7xl mx-5 sm:mx-auto pt-10 md:pt-30 my-40">
             {/* title */}
             <div>
                 <h2 className="text-2xl font-bold flex items-center gap-2 border-b w-fit pb-2 text-white">
@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="mt-10">
                     {
                         projects.map((p, i) => <div key={i}>
-                            <div className="flex justify-between items-center gap-8 border-b mb-5">
+                            <div className="transition-transform duration-300 ease-out hover:scale-105 active:scale-95 flex justify-between items-center gap-8 border-b mb-5">
                                 <div>
                                     <h2 className="font-semibold text-xl mb-2">{p.title}</h2>
                                     <p className="mb-2 text-gray-300">{p.description}</p>

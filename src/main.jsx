@@ -7,6 +7,7 @@ import HeroBanner from './components/Hero/HeroBanner.jsx'
 import Skills from './components/Skills.jsx'
 import Cp from './components/Cp.jsx'
 import Projects from './components/Projects/Projects.jsx'
+import Education from './components/Education.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode className="">
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
     <Cp></Cp>
     <Skills></Skills>
     <Projects></Projects>
+    <Education></Education>
     <body>
       <App />
     </body>

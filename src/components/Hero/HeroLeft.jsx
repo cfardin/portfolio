@@ -13,7 +13,7 @@ const text = `    __  ___         ____                      ______              
 
 const HeroLeft = () => {
     return (
-        <div className="w-full p-10 space-y-2">
+        <div className="transition-transform duration-300 ease-out hover:scale-105 active:scale-95 w-full p-10 space-y-2">
             <pre className="font-mono text-[8px] sm:text-xs leading-tight whitespace-pre overflow-x-auto">
                 {text}
             </pre>

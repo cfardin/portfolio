@@ -8,7 +8,7 @@ const Navbar = () => {
         { name: 'CP', href: '#cp' },
         { name: 'Skills', href: '#skills' },
         { name: 'Projects', href: '#projects' },
-        { name: 'Experience', href: '#experience' },
+        { name: 'Education', href: '#education' },
         { name: 'Contact', href: '#contact' },
     ];
 
@@ -23,7 +23,7 @@ const Navbar = () => {
             href="/" 
             className="text-lg font-bold tracking-wide hover:opacity-90 transition-opacity"
           >
-            Fardin 
+            Fardin <br />Chowdhruy
           </a>
         </div>
 

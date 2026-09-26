@@ -47,8 +47,6 @@ export const SkillsInfo = [
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
     ],
   },
   {
@@ -81,9 +79,7 @@ export const SkillsInfo = [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
     ],
   },
 ];
