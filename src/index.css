@@ -5,3 +5,13 @@
 html, body {
   background-color: #000000;
 }
+
+.hover-gallery > * {
+  transition: opacity 0.4s ease;
+}
+
+/* override the display:none hide so it can fade instead */
+.hover-gallery:has(*:hover) > :nth-child(1) {
+  display: block !important;
+  opacity: 0 !important;
+}
