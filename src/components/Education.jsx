@@ -1,5 +1,4 @@
-import React from 'react';
-import { FaExternalLinkAlt, FaFileAlt, FaGraduationCap } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaFileAlt, FaGraduationCap, FaSchool } from 'react-icons/fa';
 import { IoSchool } from 'react-icons/io5';
 
 const Education = () => {
@@ -21,8 +20,8 @@ const Education = () => {
                 <h3 className='font-bold text-xl'>
                     Bachelor of Science in Computer Science & Engineering
                 </h3>
-                <a href='https://metrouni.edu.bd/' target='_blank' className='flex items-center gap-1 text-sm mt-1'>
-                    Metropolitan University, Sylhet <FaExternalLinkAlt size={12} />
+                <a href='https://metrouni.edu.bd/' target='_blank' className='flex items-center gap-2 text-sm mt-1'>
+                   <FaSchool /> <p>Metropolitan University, Sylhet</p>  <FaExternalLinkAlt size={12} />
                 </a>
             </div>
 

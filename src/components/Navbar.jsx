@@ -20,7 +20,7 @@ const Navbar = () => {
         {/* Brand Name with Gradient Text */}
         <div className="navbar-start">
           <a
-            href="/" 
+            href="#hero" 
             className="text-lg font-bold tracking-wide hover:opacity-90 transition-opacity"
           >
             Fardin <br />Chowdhruy
