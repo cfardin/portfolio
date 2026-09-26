@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="mt-10">
                     {
                         projects.map((p, i) => <div key={i}>
-                            <div className="transition-transform duration-300 ease-out hover:scale-105 active:scale-95 flex justify-between items-center gap-8 border-b mb-5">
+                            <div className="transition-transform duration-300 ease-out hover:scale-105 active:scale-95 flex  flex-col md:flex-row md:px-5 justify-between items-center gap-8 border-b mb-5">
                                 <div>
                                     <h2 className="font-semibold text-xl mb-2">{p.title}</h2>
                                     <p className="mb-2 text-gray-300">{p.description}</p>
