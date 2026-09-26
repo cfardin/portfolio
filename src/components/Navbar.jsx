@@ -1,10 +1,11 @@
-import React from 'react';
+// import React from 'react';
 import {  FaArrowRight  } from "react-icons/fa";
 
 
 const Navbar = () => {
     const navLinks = [
         { name: 'About', href: '#about' },
+        { name: 'CP', href: '#cp' },
         { name: 'Projects', href: '#projects' },
         { name: 'Experience', href: '#experience' },
         { name: 'Skills', href: '#skills' },
