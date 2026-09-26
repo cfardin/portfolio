@@ -33,7 +33,7 @@ import { SkillsInfo } from '../constants';
 
 const Skills = () => {
     return (
-        <div id='skills' className='max-w-7xl mx-auto pt-30 my-40'>
+        <div id='skills' className='max-w-7xl mx-5 sm:mx-auto pt-10 md:pt-30 my-40'>
             <div className='mb-8'>
                 <h2 className='text-2xl font-bold flex items-center gap-2 border-b w-fit pb-2 text-white'>
                     <FaCode /> Skills & Tech Stack

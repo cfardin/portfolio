@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
     <div className="fixed top-0 left-0 right-0 z-50 flex justify-center p-4">
-      <nav className="navbar bg-black/80 backdrop-blur-md border border-neutral-800 rounded-2xl px-6 py-3 w-full shadow-2xl transition-all duration-300">
+      <nav className="navbar bg-black/80 backdrop-blur-[2px] border border-neutral-800 rounded-2xl px-6 py-3 w-full shadow-2xl transition-all duration-300">
         
         {/* Brand Name with Gradient Text */}
         <div className="navbar-start">

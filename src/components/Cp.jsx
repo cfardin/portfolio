@@ -102,7 +102,7 @@ const Cp = () => {
     const cardClass ="bg-[#0f1729] border border-gray-700 rounded-xl p-5 transition-all duration-300 hover:shadow-[0_0_25px_rgba(34,211,238,0.4)] hover:border-white";
 
     return (
-        <div id="cp" className="max-w-7xl mx-auto pt-30 my-40">
+        <div id="cp" className="max-w-7xl mx-5 sm:mx-auto pt-10 md:pt-30 my-40">
             <h2 className="text-2xl font-bold flex items-center gap-2 border-b w-fit pb-2 text-white mb-8">
                 <FaCode /> Competitive Programming
             </h2>
