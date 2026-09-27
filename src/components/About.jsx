@@ -118,7 +118,8 @@ const About = () => {
                             </a>
 
                             <a
-                                href="mailto:your-email@gmail.com"
+                                href="mailto:cfardin51@gmail.com"
+                                target="_blank"
                                 aria-label="Email"
                                 className="group p-3 rounded-xl border border-gray-800 bg-gray-900 text-gray-400 hover:text-white hover:border-gray-600 hover:-translate-y-1 transition-all duration-200"
                             >
@@ -126,7 +127,9 @@ const About = () => {
                             </a>
 
                             <a
-                                href="#"
+                                href="https://discord.com/users/716324793896403054"
+                                alt = "itsnotnight0"
+                                target="_blank"
                                 aria-label="Discord"
                                 className="group p-3 rounded-xl border border-gray-800 bg-gray-900 text-gray-400 hover:text-white hover:border-gray-600 hover:-translate-y-1 transition-all duration-200"
                             >

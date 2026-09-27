@@ -9,6 +9,7 @@ import Cp from './components/Cp.jsx'
 import Projects from './components/Projects/Projects.jsx'
 import Education from './components/Education.jsx'
 import About from './components/About.jsx'
+import Contact from './components/Contact.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode className="">
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
     <Skills></Skills>
     <Projects></Projects>
     <Education></Education>
+    <Contact></Contact>
     <body>
       <App />
     </body>

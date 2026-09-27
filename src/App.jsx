@@ -4,7 +4,7 @@ function App() {
 
 
   return (
-    <div className='bg-black min-h-screen'></div>
+    <div className='bg-black'></div>
   )
 }
 
