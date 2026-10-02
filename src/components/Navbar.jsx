@@ -2,6 +2,7 @@
 import {  FaArrowRight  } from "react-icons/fa";
 
 
+
 const Navbar = () => {
     const navLinks = [
         { name: 'About', href: '#about' },
